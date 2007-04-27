@@ -1,0 +1,10 @@
+# SiPixelMonitorTrackResiduals
+module SiPixelMonitorTrackResiduals = SiPixelMonitorTrackResiduals {
+  string TrackCandidateProducer="rsTrackCandidates"
+  string TrackCandidateLabel=""
+  //
+  bool OutputMEsInRootFile = false
+  string OutputFileName="test_sipixelmonitortracks.root"
+  string TTRHBuilder = "WithTrackAngle"
+  string Fitter = "KFFitter" 
+}
