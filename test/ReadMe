@@ -1,0 +1,8 @@
+Ideally, one produces tracks, where the Kalman Filter (KF) tracking algorithm 
+is preferred to the RoadSearcher (RS) due to the use of pixel hits in KF and 
+the unuse in RS, by 
+> cmsRun TrackGen.cfg
+and get the tracks in reco_ckfTrackCandidates.root. Then, one tests the 
+SiPixelMonitorTrackResiduals module by 
+> cmsRun SiPixelHitToTrackMon.cfg 
+and get the residuals in SiPixelMonitorTrackResiduals.root. 
