@@ -1,4 +1,3 @@
-# SiPixelMonitorTrackResiduals
 module SiPixelMonitorTrackResiduals = SiPixelMonitorTrackResiduals {
   string TrackCandidateProducer="ckfTrackCandidates"
   string TrackCandidateLabel=""
