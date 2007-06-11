@@ -1,8 +1,9 @@
 module SiPixelMonitorTrackResiduals = SiPixelMonitorTrackResiduals {
+  InputTag src = siPixelTracks
   string TrackCandidateProducer="ckfTrackCandidates"
   string TrackCandidateLabel=""
-  bool OutputMEsInRootFile = true
-  string OutputFileName="SiPixelMonitorTrackResiduals.root"
   string TTRHBuilder = "WithTrackAngle"
   string Fitter = "KFFitter" 
+  bool OutputMEsInRootFile = true
+  string OutputFileName="SiPixelMonitorTrackResiduals.root"
 }
