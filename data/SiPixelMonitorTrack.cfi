@@ -4,7 +4,6 @@ module SiPixelTrackResidualSource = SiPixelTrackResidualSource {
   untracked bool saveFile = true
   string outputFilename = "Pixel_DQM_TrackResidual.root"
 
-  string TrajectoryInput = "preFilterCmsTracks"
   string TrackCandidateProducer = "newTrackCandidateMaker"
   string TrackCandidateLabel = ""
   string TTRHBuilder = "WithTrackAngle"
