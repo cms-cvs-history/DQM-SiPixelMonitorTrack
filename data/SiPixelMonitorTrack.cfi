@@ -2,7 +2,7 @@ module SiPixelTrackResidualSource = SiPixelTrackResidualSource {
   InputTag src = siPixelTrackResiduals
   untracked bool debug = false 
   untracked bool saveFile = true
-  string outputFilename = "Pixel_DQM_TrackResidual.root"
+  string outputFile = "Pixel_DQM_TrackResidual.root"
 
   string TrackCandidateProducer = "newTrackCandidateMaker"
   string TrackCandidateLabel = ""
