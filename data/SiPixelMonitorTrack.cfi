@@ -7,5 +7,5 @@ module SiPixelTrackResidualSource = SiPixelTrackResidualSource {
   string TrackCandidateProducer = "newTrackCandidateMaker"
   string TrackCandidateLabel = ""
   string TTRHBuilder = "WithTrackAngle"
-  string Fitter = "FittingSmootherWithOutlierRejection" 
+  string Fitter = "KFFittingSmootherWithOutliersRejectionAndRK" 
 }
